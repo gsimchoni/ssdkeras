@@ -1,0 +1,33 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# ssdkeras package - Under Construction, use at your own risk
+
+This is a R port to [Pierluigi Ferrari's Python implementation](https://github.com/pierluigiferrari/ssd_keras) of Single Shot Multibox Detector - [SSD](https://arxiv.org/abs/1512.02325).
+
+See how to use it for detecting eyes, nose and mouth on the LFW faces dataset in this post (TODO: link)
+
+Or get the gist with `train_ssd7_faces.R`.
+
+You should get quite good results, e.g.:
+
+![](~/val_02.png)
+
+As said this is under construction though working at large. Only lightly tested on my Windows machine in which for example Python, Keras, Tensorflow are already installed. Other packages needed:
+
+`tidyverse`, `stringr`, `reticulate`, `magick`
+
+See `sessionInfo()`:
+
+```{r sessionInfo, eval = FALSE}
+sessionInfo()
+```
+
+```{r sessionInfo-Cache, echo = FALSE}
+writeLines(readLines("~/sessionInfo_04122017.txt"))
+```

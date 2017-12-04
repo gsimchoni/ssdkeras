@@ -1,0 +1,13 @@
+Package: ssdkeras
+Title: Implementing Single-Shot Detection with Rstudio's Keras wrapper
+Version: 0.0.0.9000
+Authors@R: c(
+	person("Giora", "Simchoni", email = "gsimchoni@gmail.com", role = c("aut", "cre")),
+	person("Pierluigi", "Ferrari", , "?@?", "aut")
+	)
+Description: Implementing SSD Deep Learning Object Detection Blatantly Copied from Python, with Keras, reticulate and magick
+Depends: R (>= 3.4.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

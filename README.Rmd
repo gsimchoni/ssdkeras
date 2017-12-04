@@ -16,7 +16,7 @@ Or get the gist with `train_ssd7_faces.R`.
 
 You should get quite good results, e.g.:
 
-![](~/val_02.png)
+![](val_02.png)
 
 As said this is under construction though working at large. Only lightly tested on my Windows machine in which for example Python, Keras, Tensorflow are already installed. Other packages needed:
 

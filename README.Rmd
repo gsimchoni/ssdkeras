@@ -10,7 +10,7 @@ output:
 
 This is a R port to [Pierluigi Ferrari's Python implementation](https://github.com/pierluigiferrari/ssd_keras) of Single Shot Multibox Detector - [SSD](https://arxiv.org/abs/1512.02325).
 
-See how to use it for detecting eyes, nose and mouth on the [LFW faces dataset](http://vis-www.cs.umass.edu/lfw/) in this blog post (TODO: link)
+See how to use it for detecting eyes, nose and mouth on the [LFW faces dataset](http://vis-www.cs.umass.edu/lfw/) in [this](http://giorasimchoni.com/2017/12/04/2017-12-04-snap-fu/) blog post.
 
 Or get the gist with `train_ssd7_faces.R` with the data zipped at `lfw_faces_tagged.zip`.
 
